@@ -1,5 +1,5 @@
 .firstSection{
-    height: 1280px;
+    width: 1280px;
     height: 648px;
 }
 
@@ -82,3 +82,22 @@
   .area2 { grid-area: area2; }
   .area3 { grid-area: area3; }
   .area4 { grid-area: area4; }
+
+  .secondSection{
+      width: 1279px;
+      height: 825px;
+      display: flex;
+        flex-direction: column;
+  }
+
+  .secondSectionTitle{
+      background-color: #124285;
+      width: 1279px;
+      height: 151px;
+  }
+
+  .secondSectionTitle p{
+    color: #FFFFFF;
+    font-size: 42px;
+    text-align: center;
+  }
