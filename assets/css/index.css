@@ -1,111 +1,201 @@
-.firstSection{
+body{
     width: 1280px;
-    height: 648px;
 }
 
-.firstSection img{
-    height: 648px;
-    width: 580px;
-    float: left;
+.firstSection {
+  height: 648px;
 }
 
-.firstSection .cicloName{
-    height: 325px;
-    width: 700px;
-    background-color: #124285;
-    float: left;
+.firstSection img {
+  height: 648px;
+  width: 580px;
+  float: left;
 }
 
-.firstSection .cicloInfo{
-    background-color: #0A2244;
-    height: 325px;
-    width: 700px;
-    float: left;
+.firstSection .cicloName {
+  height: 325px;
+  width: 700px;
+  background-color: #124285;
+  float: left;
 }
 
-.information{
-    height: 134px;
-    width: 403px;
-    text-align: left;
-    padding-left: 20%;
-    padding-top: 10%;
+.firstSection .cicloInfo {
+  background-color: #0a2244;
+  height: 325px;
+  width: 700px;
+  float: left;
 }
 
-.information .firstSectionTitle{
-    color: #2399D5;
-    font-size: 16px;
+.information {
+  height: 134px;
+  width: 403px;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 10%;
 }
 
-.information .firstSectionConcert{
-    color: #FFFFFF;
-    font-size: 42px;
+.information .firstSectionTitle {
+  color: #2399d5;
+  font-size: 16px;
 }
 
-.information .firstSectionP{
-    font-family: canela-text;
-    font-size: 16px;
-    color: #FFFFFF;
+.information .firstSectionConcert {
+  color: #ffffff;
+  font-size: 42px;
 }
 
-.cicloInfo{
-    text-align: left;
-    width: 489px;
-    height: 275px;
-    align-items: center;
+.information .firstSectionP {
+  font-size: 16px;
+  color: #ffffff;
 }
 
-.cicloInfo .cicloInfoTitle{
-    font-size: 32px;
-    color: #2399D5;
+.cicloInfo {
+  text-align: left;
+  width: 489px;
+  height: 275px;
+  align-items: center;
 }
 
-.cicloInfo .cicloInfoP{
-    font-size: 16px;
-    color: #FFFFFF;
+.cicloInfo .cicloInfoTitle {
+  font-size: 32px;
+  color: #2399d5;
 }
 
-.cicloInfoInitial{
-    padding-left: 20%;
+.cicloInfo .cicloInfoP {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cicloInfoInitial {
+  padding-left: 20%;
 }
 
 .grid-container {
-    padding-left: 20%;
-    display: grid;
-    gap: 0px 0px;
-    grid-template-areas:
-      "area area2 . ."
-      "area3 area4 . ."
-      ". . . .";
-      line-height: 0;
-  }
-  .area { grid-area: area; }
-  .area2 { grid-area: area2; }
-  .area3 { grid-area: area3; }
-  .area4 { grid-area: area4; }
+  padding-left: 20%;
+  display: grid;
+  gap: 0px 0px;
+  grid-template-areas:
+    "area area2 . ."
+    "area3 area4 . ."
+    ". . . .";
+  line-height: 0;
+}
+.area {
+  grid-area: area;
+}
+.area2 {
+  grid-area: area2;
+}
+.area3 {
+  grid-area: area3;
+}
+.area4 {
+  grid-area: area4;
+}
 
-  .secondSection{
-      width: 1279px;
-      height: 825px;
-      display: flex;
-        flex-direction: column;
-  }
+.secondSection {
+  width: 100%;
+  height: 960px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a1231;
+}
 
-  .secondSectionTitle{
-      background-color: #124285;
-      width: 1279px;
-      height: 151px;
-  }
+.secondSectionTitle {
+  background-color: #124285;
+  height: 151px;
+  margin-bottom: 48px;
+}
 
-  .secondSectionTitle p{
-    color: #FFFFFF;
-    font-size: 42px;
-    text-align: center;
-  }
+.secondSectionTitle p {
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+}
 
-  .peopleSection{
-      height: 825px;
-      width: 1279px;
-      background-color: #0A1231;
-  }
+.peopleSection {
+  height: 825px;
+}
 
-  
+.parent {
+  width: 1017px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-column-gap: 35px;
+  grid-row-gap: 43px;
+}
+
+.grid-item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.grid-item2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid-item3 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grid-item4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.grid-item5 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.grid-item6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.parent .sideCol p , .parent .sideCol h2{
+    margin-left: 40px;
+}
+
+.parent .sideCol h2 , .parent .midCol h2{
+    margin-top: 63px;
+}
+
+
+
+.parent .midCol p , .parent .midCol h2{
+    margin-left: 150px; 
+}
+
+.parent h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.parent p {
+  color: #ffffff;
+  font-size: 16px;
+  font: canela-text;
+}
+
+.parent .sideCol {
+  width: 270px;
+  height: 290px;
+}
+
+.parent .midCol {
+  width: 411px;
+  height: 290px;
+}
+
+.parent .ligthCol {
+  background-color: #124285;
+}
+
+.parent .darkCol {
+  background-color: #0a2244;
+}
+
+.secondSection button{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    background-color: Transparent;
+    border: #2399D5 1px solid;
+    color: white;
+    width: 270px;
+    height: 60px;
+    margin-bottom: 48px;
+}
