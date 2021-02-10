@@ -199,3 +199,31 @@ body{
     height: 60px;
     margin-bottom: 48px;
 }
+
+.thirdSection{
+    height: 160px;
+    background-color: #124285;
+}
+
+.leftSide{
+    float: left;
+    width: 280px;
+    margin-left: 100px;
+    padding-top: 32px;
+}
+
+.leftSide p{
+    color: white;
+    font: 16px;
+}
+
+.thirdSection button{
+    font: 15px;
+    color: white;
+    border: 1px solid #0090CD;
+    background-color: Transparent;
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 180px;
+}
