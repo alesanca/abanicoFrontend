@@ -23,7 +23,62 @@
     float: left;
 }
 
+.information{
+    height: 134px;
+    width: 403px;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
 .information .firstSectionTitle{
     color: #2399D5;
-    font-size: 16;
+    font-size: 16px;
 }
+
+.information .firstSectionConcert{
+    color: #FFFFFF;
+    font-size: 42px;
+}
+
+.information .firstSectionP{
+    font-family: canela-text;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.cicloInfo{
+    text-align: left;
+    width: 489px;
+    height: 275px;
+    align-items: center;
+}
+
+.cicloInfo .cicloInfoTitle{
+    font-size: 32px;
+    color: #2399D5;
+}
+
+.cicloInfo .cicloInfoP{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.cicloInfoInitial{
+    padding-left: 20%;
+}
+
+.grid-container {
+    padding-left: 20%;
+    display: grid;
+    gap: 0px 0px;
+    grid-template-areas:
+      "area area2 . ."
+      "area3 area4 . ."
+      ". . . .";
+      line-height: 0;
+  }
+  .area { grid-area: area; }
+  .area2 { grid-area: area2; }
+  .area3 { grid-area: area3; }
+  .area4 { grid-area: area4; }
