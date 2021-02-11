@@ -1,5 +1,5 @@
-body{
-    width: 1280px;
+body {
+  width: 1280px;
 }
 
 .firstSection {
@@ -15,13 +15,13 @@ body{
 .firstSection .cicloName {
   height: 325px;
   width: 700px;
-  background: linear-gradient( 45deg, #0C2B56, #0F366D, #0C2C59 ); 
+  background: linear-gradient(45deg, #0c2b56, #0f366d, #0c2c59);
   float: left;
   position: relative;
 }
 
 .firstSection .cicloInfo {
-  background: linear-gradient( 45deg, #0C2953, #0B264B, #0C2952 );
+  background: linear-gradient(45deg, #0c2953, #0b264b, #0c2952);
   height: 325px;
   width: 700px;
   float: left;
@@ -31,8 +31,7 @@ body{
   height: 325px;
   width: 700px;
   text-align: left;
-  padding-left: 20%;
-
+  padding-left: 60px;
   line-height: 0;
 }
 
@@ -63,6 +62,8 @@ body{
 .cicloInfo .cicloInfoTitle {
   font-size: 32px;
   color: #2399d5;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 .cicloInfo .cicloInfoTitleDown {
@@ -73,14 +74,16 @@ body{
 .cicloInfo .cicloInfoP {
   font-size: 16px;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .cicloInfoInitial {
-  padding-left: 20%;
+  padding-left: 60px;
+  line-height: 0;
 }
 
 .grid-container {
-  padding-left: 20%;
+  padding-left: 60px;
   display: grid;
   gap: 0px 0px;
   grid-template-areas:
@@ -107,11 +110,11 @@ body{
   height: 960px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient( 45deg, #0A1232, #0A1A3B,  #092144);
+  background: linear-gradient(45deg, #0a1232, #0a1a3b, #092144);
 }
 
 .secondSectionTitle {
-  background: linear-gradient( 45deg, #0C2A55, #0F366D, #0C2B56);
+  background: linear-gradient(45deg, #0c2a55, #0f366d, #0c2b56);
   height: 151px;
   margin-bottom: 48px;
 }
@@ -154,18 +157,19 @@ body{
   grid-area: 2 / 3 / 3 / 4;
 }
 
-.parent .sideCol p , .parent .sideCol h2{
-    margin-left: 40px;
+.parent .sideCol p,
+.parent .sideCol h2 {
+  margin-left: 40px;
 }
 
-.parent .sideCol h2 , .parent .midCol h2{
-    margin-top: 63px;
+.parent .sideCol h2,
+.parent .midCol h2 {
+  margin-top: 63px;
 }
 
-
-
-.parent .midCol p , .parent .midCol h2{
-    margin-left: 110px; 
+.parent .midCol p,
+.parent .midCol h2 {
+  margin-left: 110px;
 }
 
 .parent h2 {
@@ -197,86 +201,93 @@ body{
   background-color: #0a2244;
 }
 
-.secondSection button{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
-    background-color: Transparent;
-    border: #2399D5 1px solid;
-    color: white;
-    width: 270px;
-    height: 60px;
-    margin-bottom: 48px;
+.secondSection button {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background-color: Transparent;
+  border: #2399d5 1px solid;
+  color: white;
+  width: 270px;
+  height: 60px;
+  margin-bottom: 48px;
 }
 
-.thirdSection{
-    height: 160px;
-    background-color: #124285;
+.thirdSection {
+  height: 160px;
+  background-color: #124285;
 }
 
-.leftSide{
-    float: left;
-    width: 280px;
-    margin-left: 100px;
-    padding-top: 32px;
+.leftSide {
+  float: left;
+  width: 280px;
+  margin-left: 100px;
+  padding-top: 32px;
 }
 
-.leftSide p{
-    color: white;
-    font: 16px;
+.leftSide p {
+  color: white;
+  font: 16px;
 }
 
-.thirdSection button{
-    font: 15px;
-    color: white;
-    border: 1px solid #0090CD;
-    background-color: Transparent;
-    width: 140px;
-    height: 40px;
-    margin-top: 60px;
-    margin-left: 180px;
+.thirdSection button {
+  font: 15px;
+  color: white;
+  border: 1px solid #0090cd;
+  background-color: Transparent;
+  width: 140px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 180px;
 }
 
-.rigthSide{
-    float: right;
+.rigthSide {
+  float: right;
 }
 
-.rigthSide img{
-    height: 70px;
-    width: 85px;
-    margin-top: 37px;
+.rigthSide img {
+  height: 70px;
+  width: 85px;
+  margin-top: 37px;
 }
 
 .rigthImg {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
-.img{
-    margin-right: 60px;
+.img {
+  margin-right: 60px;
 }
 
-.socialImg{
-    margin-left: 40px;
+.socialImg {
+  margin-left: 40px;
 }
 
-.headerButton{
-    position: absolute;
-    bottom: -30px;
-    right: 50px;
-    color: white;
-    background-color: #C99B4F;
-    width: 210px;
-    height: 60px;
-    font-size: 18px;
+.headerButton {
+  position: absolute;
+  bottom: -30px;
+  right: 100px;
+  color: white;
+  background-color: #c99b4f;
+  width: 210px;
+  height: 60px;
+  font-size: 18px;
 }
 
-.footer{
-    height: 25px;
-    background-color: #0B264B;
-    color: #ffffff;
+.footer {
+  height: 25px;
+  background-color: #0b264b;
+  color: #ffffff;
 }
 
-.enlaces p{
-    margin-top: 0;
-    text-align: center;
+.enlaces p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.enlaces a {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
