@@ -213,7 +213,7 @@ body {
 .leftSide {
   float: left;
   text-align: center;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .leftSide p {
@@ -224,8 +224,8 @@ body {
 .rigthSide img {
   height: 70px;
   width: 70px;
-  margin-top: 45px;
-  margin-left: 65px;
+  margin-top: 50px;
+  margin-left: 45px;
 }
 
 .socialImg {
