@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('../Fonts/ProximaNova/ProximaNova.ttc');
+  font-family: "Proxima Nova";
+  src: url("../Fonts/ProximaNova/ProximaNova.ttc");
 }
 
 body {
@@ -17,8 +17,9 @@ body {
   float: left;
 }
 
-.firstSectionTitle , .firstSectionConcert {
-  font-family: 'Proxima Nova' Fallback, sans-serif;
+.firstSectionTitle,
+.firstSectionConcert {
+  font-family: "Proxima Nova" Fallback, sans-serif;
 }
 
 .firstSection .cicloName {

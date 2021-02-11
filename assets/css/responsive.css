@@ -8,22 +8,26 @@ body {
 
 .cicloName {
   height: 210px;
-  background-color: #124285;
+  background: linear-gradient(to bottom right, #0d2c57, #0f356a);
+  line-height: 0;
 }
 
 .cicloName .firstSectionTitle {
   font-size: 16px;
   color: #2399d5;
+  margin-top: 40px;
 }
 
 .cicloName .firstSectionP {
   font-size: 16px;
   color: #ffffff;
+  margin-bottom: 70px;
 }
 
 .cicloName .firstSectionConcert {
   font-size: 28px;
   color: #ffffff;
+  margin-bottom: 25px;
 }
 
 .information {
@@ -33,13 +37,14 @@ body {
 
 .cicloInfo {
   height: 283px;
-  background-color: #0a2244;
+  background: linear-gradient(45deg, #0c2a53, #0b264c);
   display: flex;
   flex-direction: column;
 }
 
 .cicloInfoInitial {
   margin-left: 30px;
+  line-height: 0px;
 }
 
 .cicloInfo .cicloInfoTitle {
@@ -60,7 +65,7 @@ body {
 .headerButton {
   position: absolute;
   bottom: 50px;
-  right: 30px;
+  right: 50px;
   color: white;
   background-color: #c99b4f;
   width: 201px;
@@ -94,7 +99,7 @@ body {
 .secondSectionTitle {
   color: #ffffff;
   font-size: 28px;
-  background-color: #124285;
+  background: linear-gradient(45deg, #0C2B57, #0F356A, #0F366D);
   display: flex;
   flex-direction: column;
   padding-left: 100px;
@@ -168,94 +173,81 @@ body {
 .parent .grid-item3,
 .parent .grid-item1,
 .parent .grid-item5 {
-  background-color: #124285;
+  background: linear-gradient(45deg, #124285, #0F376F, #0C2C58);
 }
 
 .parent .grid-item2,
 .parent .grid-item4,
 .parent .grid-item6 {
-  background-color: #0a2244;
+  background: linear-gradient(45deg, #0A2345, #0B264B, #0C2953);
 }
 
-.secondSection button {
-  font-size: 16px;
-  background-color: Transparent;
-  border: #2399d5 1px solid;
+.thirdSection {
+  height: 468px;
+  background-color: #124285;
+}
+
+.leftSide {
+  float: left;
+  width: 280px;
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.leftSide p {
   color: white;
-  width: 2550px;
+  font: 16px;
+}
+
+.thirdSection button {
+  font: 15px;
+  color: white;
+  border: 1px solid #0090cd;
+  background-color: #c99b4f;
+  width: 140px;
   height: 40px;
+  margin-top: 35px;
+  margin-left: 115px;
 }
 
-.thirdSection{
-    height: 468px;
-    background-color: #124285;
+.leftSide {
+  float: left;
+  text-align: center;
+  margin-left: 30px;
 }
 
-.leftSide{
-    float: left;
-    width: 280px;
-    margin-left: 100px;
-    padding-top: 50px;
+.leftSide p {
+  color: white;
+  font: 16px;
 }
 
-.leftSide p{
-    color: white;
-    font: 16px;
+.rigthSide img {
+  height: 70px;
+  width: 70px;
+  margin-top: 45px;
+  margin-left: 65px;
 }
 
-.thirdSection button{
-    font: 15px;
-    color: white;
-    border: 1px solid #0090CD;
-    background-color: #c99b4f;
-    width: 140px;
-    height: 40px;
-    margin-top: 35px;
-    margin-left: 115px;
+.socialImg {
+  margin-left: 40px;
 }
 
-.leftSide{
-    float: left;
-    text-align: center;
-    margin-left: 30px;
+.footer {
+  height: 25px;
+  background-color: #0b264b;
+  color: #ffffff;
 }
 
-.leftSide p{
-    color: white;
-    font: 16px;
+.enlaces p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 5px;
 }
 
-.rigthSide img{
-    height: 70px;
-    width: 70px;
-    margin-top: 37px;
-}
-
-.rigthSide .img{
-    margin-left: 15px;
-}
-
-.rigthImg {
-    margin-right: 40px;
-}
-
-.img{
-    margin-right: 40px;
-}
-
-.socialImg{
-    margin-left: 40px;
-}
-
-.footer{
-    height: 25px;
-    background-color: #0B264B;
-    color: #ffffff;
-}
-
-.enlaces p{
-    margin-top: 0;
-    text-align: center;
-    font-size: 11px;
-    padding-top: 5px;
+.enlaces a {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
