@@ -15,35 +15,37 @@ body{
 .firstSection .cicloName {
   height: 325px;
   width: 700px;
-  background-color: #124285;
+  background: linear-gradient( 45deg, #0C2B56, #0F366D, #0C2C59 ); 
   float: left;
   position: relative;
 }
 
 .firstSection .cicloInfo {
-  background-color: #0a2244;
+  background: linear-gradient( 45deg, #0C2953, #0B264B, #0C2952 );
   height: 325px;
   width: 700px;
   float: left;
 }
 
 .information {
-  height: 134px;
-  width: 403px;
+  height: 325px;
+  width: 700px;
   text-align: left;
   padding-left: 20%;
-  padding-top: 10%;
 
+  line-height: 0;
 }
 
 .information .firstSectionTitle {
   color: #2399d5;
   font-size: 16px;
+  margin-top: 140px;
 }
 
 .information .firstSectionConcert {
   color: #ffffff;
   font-size: 42px;
+  margin-bottom: 45px;
 }
 
 .information .firstSectionP {
@@ -59,6 +61,11 @@ body{
 }
 
 .cicloInfo .cicloInfoTitle {
+  font-size: 32px;
+  color: #2399d5;
+}
+
+.cicloInfo .cicloInfoTitleDown {
   font-size: 32px;
   color: #2399d5;
 }
@@ -100,11 +107,11 @@ body{
   height: 960px;
   display: flex;
   flex-direction: column;
-  background-color: #0a1231;
+  background: linear-gradient( 45deg, #0A1232, #0A1A3B,  #092144);
 }
 
 .secondSectionTitle {
-  background-color: #124285;
+  background: linear-gradient( 45deg, #0C2A55, #0F366D, #0C2B56);
   height: 151px;
   margin-bottom: 48px;
 }
