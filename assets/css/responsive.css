@@ -38,6 +38,10 @@ body{
     flex-direction: column;
  }
 
+ .cicloInfoInitial {
+     margin-left: 30px;
+ }
+
  .cicloInfo .cicloInfoTitle{
      color: #2399D5;
      font-size: 24px;
@@ -46,6 +50,11 @@ body{
  .cicloInfo .cicloInfoP{
     color:#FFFFFF;
     font-size: 14px;
+}
+
+.cicloInfo .cicloInfoTitleDown{
+    color: #2399D5;
+    font-size: 18px;
 }
 
  .headerButton{
@@ -58,3 +67,28 @@ body{
     height: 40px;
     font-size: 16px;
 }
+
+
+.grid-container {
+    padding-left: 30px;
+    display: grid;
+    gap: 0px 0px;
+    grid-template-areas:
+      "area area2 . ."
+      "area3 area4 . ."
+      ". . . .";
+    line-height: 0;
+  }
+  .area {
+    grid-area: area;
+  }
+  .area2 {
+    grid-area: area2;
+  }
+  .area3 {
+    grid-area: area3;
+  }
+  .area4 {
+    grid-area: area4;
+  }
+  
