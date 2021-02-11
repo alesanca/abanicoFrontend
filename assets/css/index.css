@@ -204,11 +204,11 @@ body {
 }
 
 .parent .ligthCol {
-  background: linear-gradient(45deg, #114081, #0F3770, #0C2B56);
+  background: linear-gradient(45deg, #114081, #0f3770, #0c2b56);
 }
 
 .parent .darkCol {
-  background: linear-gradient(45deg, #0A2345, #0C274D, #0C2952);
+  background: linear-gradient(45deg, #0a2345, #0c274d, #0c2952);
 }
 
 .secondSection button {

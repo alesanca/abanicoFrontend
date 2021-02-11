@@ -99,7 +99,7 @@ body {
 .secondSectionTitle {
   color: #ffffff;
   font-size: 28px;
-  background: linear-gradient(45deg, #0C2B57, #0F356A, #0F366D);
+  background: linear-gradient(45deg, #0c2b57, #0f356a, #0f366d);
   display: flex;
   flex-direction: column;
   padding-left: 100px;
@@ -173,13 +173,13 @@ body {
 .parent .grid-item3,
 .parent .grid-item1,
 .parent .grid-item5 {
-  background: linear-gradient(45deg, #124285, #0F376F, #0C2C58);
+  background: linear-gradient(45deg, #124285, #0f376f, #0c2c58);
 }
 
 .parent .grid-item2,
 .parent .grid-item4,
 .parent .grid-item6 {
-  background: linear-gradient(45deg, #0A2345, #0B264B, #0C2953);
+  background: linear-gradient(45deg, #0a2345, #0b264b, #0c2953);
 }
 
 .thirdSection {
